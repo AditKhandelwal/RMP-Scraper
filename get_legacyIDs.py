@@ -23,7 +23,6 @@ def create_name_id_json(input_file, output_file):
         json.dump(new_data, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
-    # Example usage
     input_file = "output.json"     
     output_file = "legacyIds.json"
     create_name_id_json(input_file, output_file)
